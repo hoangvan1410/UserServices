@@ -28,7 +28,7 @@ mongoose.connect(
 
 // router
 //app.use("/api/users", userRoute);
-app.use("/api/user", userRoute);
+app.use("/api/users", userRoute);
 //app.use("/api/rates", rateRoute);
 
 // app.get("/api/healthinfotest",async (req, res) => {
